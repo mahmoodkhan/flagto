@@ -10,7 +10,7 @@
 			
 			<?php echo $this->Html->link(
 					$this->Html->image('signup.png', array('alt' => 'Sign Up', 'border' => '0')),
-					'http://flagto/users/add/',
+					'/users/add/',
 					array('target' => '', 'escape' => false)
 				);
 			?>

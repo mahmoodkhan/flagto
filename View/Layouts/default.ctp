@@ -43,7 +43,7 @@ $cakeDescription = __d('cake_dev', '');
 		<div id="logo" class="container">
 			<?php echo $this->Html->link(
 					$this->Html->image('flagtologo.png', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://flagto/',
+					'/',
 					array('target' => '', 'escape' => false)
 				);
 			?>
@@ -52,11 +52,12 @@ $cakeDescription = __d('cake_dev', '');
 <div id="menu-wrapper">
 	<div id="menu" class="container">
 		<ul>
-			<li><a href="http://flagto/users/add/">Signup</a></li>
-			<li><a href="http://flagto/users/login/">Login</a></li>
-			<li><a href="http://flagto/users/index/">List</a></li>
-			<li><a href="http://flagto/pages/about/">About Flagto!</a></li>
-			<li><a href="http://flagto/pages/contact/">Contact Us</a></li>
+			<li><a href="/users/add/">Signup</a></li>
+			<li><a href="/users/login/">Login</a></li>
+			<li><a href="/users/index/">List</a></li>
+			<li><a href="/pages/about/">About Flagto!</a></li>
+			<li><a href="/pages/contact/">Contact Us</a></li>
+			<li><a href="/users/logout/">Logout</a></li>
 		</ul>
 	</div>
 </div>

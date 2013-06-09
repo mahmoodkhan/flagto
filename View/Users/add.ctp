@@ -91,6 +91,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
     <fieldset>
         <legend><?php echo __('Create your account!'); ?></legend>
         <?php 
+        echo $this->Form->input('lat', array('type' => 'hidden'));
+        echo $this->Form->input('lon', array('type' => 'hidden'));
         echo $this->Form->input('fullname', array('label' => 'Full Name'));
         echo $this->Form->input('phone');
         echo $this->Form->input('address', array('label' => 'Street Address'));

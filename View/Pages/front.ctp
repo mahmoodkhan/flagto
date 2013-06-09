@@ -8,6 +8,6 @@
 		</div>
 	</div>
 	<div id="box2">
-			<a href="http://flagto/users/add/"><img class="signup" src="img/signup.png" alt="FlagTo! Logo"></a>	</div>
+			<a href="/users/add/"><img class="signup" src="img/signup.png" alt="FlagTo! Logo"></a>	</div>
 </div>
 
