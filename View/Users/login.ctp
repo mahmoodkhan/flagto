@@ -1,4 +1,4 @@
-<div class="users form">
+<div class="formstyle">
 <?php echo $this->Session->flash('auth'); ?>
 <?php echo $this->Form->create('User'); ?>
     <fieldset>
@@ -7,5 +7,5 @@
         echo $this->Form->input('password');
     ?>
     </fieldset>
-<?php echo $this->Form->end(__('Login')); ?>
+<?php echo $this->Form->end(__('LOGIN')); ?>
 </div>

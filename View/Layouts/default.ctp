@@ -17,11 +17,13 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
-$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
+$cakeDescription = __d('cake_dev', '');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+
 	<?php echo $this->Html->charset(); ?>
 	<title>
 		<?php echo $cakeDescription ?>:
@@ -38,10 +40,26 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	?>
 </head>
 <body>
-	<div id="container">
-		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://flagto/'); ?></h1>
-		</div>
+		<div id="logo" class="container">
+			<?php echo $this->Html->link(
+					$this->Html->image('flagtologo.png', array('alt' => $cakeDescription, 'border' => '0')),
+					'http://flagto/',
+					array('target' => '', 'escape' => false)
+				);
+			?>
+</div>
+
+<div id="menu-wrapper">
+	<div id="menu" class="container">
+		<ul>
+			<li><a href="http://flagto/users/add/">Signup</a></li>
+			<li><a href="http://flagto/users/login/">Login</a></li>
+			<li><a href="http://flagto/users/index/">List</a></li>
+			<li><a href="http://flagto/pages/about/">About Flagto!</a></li>
+			<li><a href="http://flagto/pages/contact/">Contact Us</a></li>
+		</ul>
+	</div>
+</div>
 		<div id="content">
 
 			<?php echo $this->Session->flash(); ?>
@@ -49,14 +67,12 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer">
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false)
-				);
-			?>
+				<p>Copyright 2013 FlagTo.com</p>
+
 		</div>
 	</div>
 	<!--<?php echo $this->element('sql_dump'); ?> -->
 </body>
 </html>
+
+
