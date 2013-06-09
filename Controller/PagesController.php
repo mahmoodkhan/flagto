@@ -72,4 +72,8 @@ class PagesController extends AppController {
 		$this->set(compact('page', 'subpage', 'title_for_layout'));
 		$this->render(implode('/', $path));
 	}
+	
+	function beforeFilter() {
+  		$this->Auth->allow('/', 'contact'); // Letting home page be accessible without login
+  	}
 }
