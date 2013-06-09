@@ -1,0 +1,82 @@
+2013-06-08 18:37:16 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/Library/WebServer/Documents/sites/flagto/app/Controller/UsersController.php, line 7]
+2013-06-08 18:37:16 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/add/
+Stack Trace:
+#0 /Library/WebServer/Documents/sites/flagto/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Library/WebSer...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Library/WebSer...', 7, Array)
+#2 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Library/WebSer...', 7, Array)
+#3 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-08 19:18:43 Error: Fatal Error (4): syntax error, unexpected '<' in [/Library/WebServer/Documents/sites/flagto/app/View/Users/add.ctp, line 8]
+2013-06-08 19:18:43 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /users/add/
+Stack Trace:
+#0 /Library/WebServer/Documents/sites/flagto/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Library/WebSer...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Library/WebSer...', 8, Array)
+#2 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Library/WebSer...', 8, Array)
+#3 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-08 19:32:27 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/Library/WebServer/Documents/sites/flagto/app/View/Users/add.ctp, line 9]
+2013-06-08 19:32:27 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /users/add/
+Stack Trace:
+#0 /Library/WebServer/Documents/sites/flagto/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Library/WebSer...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Library/WebSer...', 9, Array)
+#2 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Library/WebSer...', 9, Array)
+#3 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-08 19:44:19 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Library/WebServer/Documents/sites/flagto/app/Controller/UsersController.php, line 69]
+2013-06-08 19:44:19 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+Request URL: /users/login
+Stack Trace:
+#0 /Library/WebServer/Documents/sites/flagto/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Library/WebSer...', 69)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Library/WebSer...', 69, Array)
+#2 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Library/WebSer...', 69, Array)
+#3 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-08 19:45:04 Error: Fatal Error (4): syntax error, unexpected T_CLASS, expecting T_FUNCTION in [/Library/WebServer/Documents/sites/flagto/app/Model/User.php, line 16]
+2013-06-08 19:45:04 Error: [FatalErrorException] syntax error, unexpected T_CLASS, expecting T_FUNCTION
+Request URL: /users/login
+Stack Trace:
+#0 /Library/WebServer/Documents/sites/flagto/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Library/WebSer...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Library/WebSer...', 16, Array)
+#2 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Library/WebSer...', 16, Array)
+#3 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-08 19:45:41 Error: Fatal Error (4): syntax error, unexpected T_CLASS, expecting T_FUNCTION in [/Library/WebServer/Documents/sites/flagto/app/Model/User.php, line 9]
+2013-06-08 19:45:41 Error: [FatalErrorException] syntax error, unexpected T_CLASS, expecting T_FUNCTION
+Request URL: /users/login
+Stack Trace:
+#0 /Library/WebServer/Documents/sites/flagto/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Library/WebSer...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Library/WebSer...', 9, Array)
+#2 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Library/WebSer...', 9, Array)
+#3 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-08 19:46:03 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/Library/WebServer/Documents/sites/flagto/app/Model/User.php, line 35]
+2013-06-08 19:46:03 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /users/login
+Stack Trace:
+#0 /Library/WebServer/Documents/sites/flagto/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Library/WebSer...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Library/WebSer...', 35, Array)
+#2 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Library/WebSer...', 35, Array)
+#3 /Library/WebServer/Documents/sites/flagto/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-08 19:49:40 Error: [MissingViewException] View file "/Library/WebServer/Documents/sites/flagto/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Library/WebServer/Documents/sites/flagto/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /Library/WebServer/Documents/sites/flagto/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Library/WebServer/Documents/sites/flagto/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Library/WebServer/Documents/sites/flagto/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Library/WebServer/Documents/sites/flagto/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Library/WebServer/Documents/sites/flagto/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
