@@ -1,8 +1,8 @@
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script>
-var stockholm = new google.maps.LatLng(59.32522, 18.07002);
-var pos = new google.maps.LatLng(59.327383, 18.06747);
+var stockholm = new google.maps.LatLng(45.5240, -122.6745);
+var pos = new google.maps.LatLng(45.5240, -122.6745);
 var marker = new google.maps.Marker({
     map:map,
     draggable:true,
