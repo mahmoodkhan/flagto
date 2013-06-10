@@ -41,8 +41,8 @@ class AppController extends Controller {
         )
     );
 
-    //public function beforeFilter() {
-    //    $this->Auth->allow('/', 'view');
-    //}
+    public function beforeFilter() {
+        $this->Auth->allow('display', 'view');
+    }
     //.
 }

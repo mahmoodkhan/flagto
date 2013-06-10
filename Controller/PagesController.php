@@ -73,7 +73,7 @@ class PagesController extends AppController {
 		$this->render(implode('/', $path));
 	}
 	
-	function beforeFilter() {
-  		$this->Auth->allow('/', 'contact'); // Letting home page be accessible without login
-  	}
+	//function beforeFilter() {
+  		//$this->Auth->allow('/', 'contact'); // Letting home page be accessible without login
+  	//}
 }
