@@ -3,7 +3,13 @@
 	<div id="box1">
 		<h2 class="title"><a>Contact us</a></h2>
 		<div class="entry">
-			<p>We are <strong>FlagTo!</strong>,TEST TEST TEST
+			<p>
+				<ul>
+					<li>Email us: info@flagto.com</li>
+					<li>Call us: 503 569 4227</li>
+					<li>Come visit us: !000AAAA</li>
+				</ul>
+			</p>
 		</div>
 	</div>
 	<div id="box2">
