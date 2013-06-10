@@ -29,6 +29,7 @@ function initialize() {
   latlong();
 // Try HTML5 geolocation
   if(navigator.geolocation) {
+
     navigator.geolocation.getCurrentPosition(function(position) {
       pos = new google.maps.LatLng(position.coords.latitude,
                                        position.coords.longitude);
@@ -68,8 +69,8 @@ function latlong() {
 	
 	lat = marker.getPosition().lat();
 	lng = marker.getPosition().lng();
-	//document.getElementById('lat').innerHTML = lat;
-	//document.getElementById('lng').innerHTML = lng;
+	document.getElementById('UserLat').value = lat;
+	document.getElementById('UserLon').value = lng;
 
 }
 
@@ -93,6 +94,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
         <?php 
         echo $this->Form->input('lat', array('type' => 'hidden'));
         echo $this->Form->input('lon', array('type' => 'hidden'));
+        //echo $this->Form->input('lat', array('label' => 'Latitude'));
+        //echo $this->Form->input('lon', array('label' => 'Longitude'));
         echo $this->Form->input('fullname', array('label' => 'Full Name'));
         echo $this->Form->input('phone');
         echo $this->Form->input('address', array('label' => 'Street Address'));
