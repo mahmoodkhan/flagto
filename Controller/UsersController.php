@@ -87,5 +87,22 @@ class UsersController extends AppController {
     	$this->redirect($this->Auth->logout());
 	}
 	
+	
+	public function isAuthorized($user) {
+    	// All registered users can add posts
+    	if ($this->action === 'add') {
+        	return true;
+    	}
+
+    	// The owner of a post can edit and delete it
+    	if (in_array($this->action, array('edit', 'delete'))) {
+        	$userId = $this->request->params['pass'][0];
+        	if ($this->User->isOwnedBy($userId, $user['id'])) {
+            	return true;
+        	}
+    	}
+
+    	return parent::isAuthorized($user);
+	}
 }
 ?>
